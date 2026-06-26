@@ -1,0 +1,15 @@
+[package]
+name = "toolbox"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+webdav-backup = { path = "crates/webdav-backup" }
+llm-proxy = { path = "crates/llm-proxy" }
+
+[workspace]
+resolver = "3"
+
+[profile.release]
+strip = true
+incremental = true

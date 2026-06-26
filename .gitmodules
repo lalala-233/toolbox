@@ -1,0 +1,6 @@
+[submodule "crates/llm-proxy"]
+	path = crates/llm-proxy
+	url = git@github.com:lalala-233/llm-proxy.git
+[submodule "crates/webdav-backup"]
+	path = crates/webdav-backup
+	url = git@github.com:lalala-233/webdav-backup.git
