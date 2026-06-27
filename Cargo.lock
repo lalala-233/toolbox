@@ -1031,7 +1031,7 @@ checksum = "92daf443525c4cce67b150400bc2316076100ce0b3686209eb8cf3c31612e6f0"
 
 [[package]]
 name = "llm-proxy"
-version = "0.1.4"
+version = "0.1.5"
 dependencies = [
  "axum",
  "clap",
@@ -1943,9 +1943,12 @@ checksum = "756daf9b1013ebe47a8776667b466417e2d4c5679d441c26230efd9ef78692db"
 
 [[package]]
 name = "toolbox"
-version = "0.1.0"
+version = "0.1.1"
 dependencies = [
+ "clap",
  "llm-proxy",
+ "tokio",
+ "tracing-subscriber",
  "webdav-backup",
 ]
 
