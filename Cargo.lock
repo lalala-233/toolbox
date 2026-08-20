@@ -1034,6 +1034,7 @@ checksum = "47d9d19d1d6efa0109d2f65ff4c85cddd50bd572e5a00127ab10987290bcefae"
 [[package]]
 name = "llm-proxy"
 version = "0.1.5"
+source = "git+https://github.com/lalala-233/LLM-Proxy?rev=c0d78ca#c0d78ca7b3d0ab8f0252d917e703ded38698234e"
 dependencies = [
  "axum",
  "clap",
@@ -2209,6 +2210,7 @@ dependencies = [
 [[package]]
 name = "webdav-backup"
 version = "0.1.6"
+source = "git+https://github.com/lalala-233/webdav-backup?rev=3eb095a#3eb095a0e173f73a2b939fa054b757d517778036"
 dependencies = [
  "chrono",
  "clap",

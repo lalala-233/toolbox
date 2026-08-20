@@ -4,9 +4,8 @@ version = "0.1.1"
 edition = "2024"
 
 [dependencies]
-webdav-backup = { path = "crates/webdav-backup" }
-llm-proxy = { path = "crates/llm-proxy" }
 clap = { version = "4.6", features = ["derive"] }
+llm-proxy = { git = "https://github.com/lalala-233/LLM-Proxy", rev = "c0d78ca", version = "0.1.5" }
 tokio = { version = "1.53", default-features = false, features = [
     "rt-multi-thread",
     "macros",
@@ -15,9 +14,7 @@ tokio = { version = "1.53", default-features = false, features = [
 tracing-subscriber = { version = "0.3", default-features = false, features = [
     "fmt",
 ] }
-
-[workspace]
-resolver = "3"
+webdav-backup = { git = "https://github.com/lalala-233/webdav-backup", rev = "3eb095a", version = "0.1.6" }
 
 [profile.release]
 strip = true
